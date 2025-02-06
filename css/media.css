@@ -1,0 +1,35 @@
+/* ----------------- MEDIA QUERIES---------------------- */
+@media (min-width:600px) {
+
+
+
+    .product-container {
+        flex-direction: row;
+        max-width: 550px;
+
+    }
+
+    .product-info {
+        width: 50%;
+        padding: 1em 2em;
+        border-radius: 0 0.5em 0.5em 0;
+
+    }
+
+    .product-title {
+        margin-top: 0.5em
+    }
+
+
+    .product-img {
+
+        border-radius: 0.5em 0 0em 0.5em;
+        max-width: 275px;
+        width: 100%;
+
+    }
+
+    .cart-btn {
+        margin-bottom: 1em
+    }
+}
