@@ -23,39 +23,43 @@
   </head>
   <body>
     <!-- ---------PAGE WRAPPER--------------- -->
-    <div class="page-wrapper">
+    <div class="wrapper">
       <!-- ---------PRODUCT CONTAINER-------------- -->
-      <article class="product-container">
+      <article class="card-product">
         <picture>
           <source
             srcset="images/image-product-mobile.jpg"
             media="(max-width: 600px)"
           />
           <img
-            class="product-img"
+            class="card-product__img"
             src="images/image-product-desktop.jpg"
             alt="A chanel perfume with green leaves around"
             loading="lazy"
           />
         </picture>
-        <section class="product-info">
-          <h2 class="product-category">Perfume</h2>
-          <h1 class="product-title">Gabrielle Essence Eau De Parfum</h1>
-          <p class="product-body">
+        <section class="card-product__info">
+          <h1 class="card-product__category">Perfume</h1>
+          <h2 class="card-product__title">Gabrielle Essence Eau De Parfum</h2>
+          <p class="card-product__description">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
-          <div class="price-container">
-            <span class="price final-price">$149.99</span>
-            <span class="price mrp-price">$169.99</span>
+          <div class="card-product__price-container">
+            <span class="card-product__price card-product__price--final"
+              >$149.99</span
+            >
+            <span class="card-product__price card-product__price--mrp"
+              >$169.99</span
+            >
           </div>
-          <button class="cart-btn">
+          <button class="card-product__cart-btn">
             <img
-              class="cart-icon"
+              class="card-product__cart-icon"
               src="images/icon-cart.svg"
               alt="A cart icon with Add to cart button"
             />
-            <span class="cart-text">Add to Cart</span>
+            <span class="card-product__cart-text">Add to Cart</span>
           </button>
         </section>
       </article>

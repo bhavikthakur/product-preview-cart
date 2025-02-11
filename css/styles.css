@@ -23,7 +23,7 @@ body {
 }
 
 /* -------PAGE WRAPPER--------------- */
-.page-wrapper {
+.wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@ body {
 
 /* ---------MAIN CONTAINER-------------- */
 
-.product-container {
+.card-product {
     max-width: 350px;
     width: 95%;
     display: flex;
@@ -42,7 +42,7 @@ body {
 }
 
 /* --------PRODUCT IMAGE----------- */
-.product-img {
+.card-product__img {
     width: 100%;
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em
@@ -51,7 +51,7 @@ body {
 
 /* ---------PRODUCT INFO AND CART------------ */
 
-.product-info {
+.card-product__info {
     background-color: var(--clr-neutral-white);
     padding: 1em;
     display: flex;
@@ -61,7 +61,7 @@ body {
     border-bottom-right-radius: 0.5em;
 }
 
-.product-category {
+.card-product__category {
     text-transform: uppercase;
     margin-top: 0.5em;
     color: var(--clr-blue-500);
@@ -71,7 +71,7 @@ body {
 }
 
 
-.product-title {
+.card-product__title {
     font-family: "Fraunces", serif;
     font-weight: 700;
     font-size: 1.75rem;
@@ -80,7 +80,7 @@ body {
     color: var(--clr-blue-900)
 }
 
-.product-body {
+.card-product__description {
     margin-top: 1em;
     color: var(--clr-blue-500);
     font-size: 0.86rem;
@@ -91,7 +91,7 @@ body {
 /* -------PRICE CONTAINER----------- */
 
 
-.price-container {
+.card-product__price-container {
     display: flex;
     align-items: center;
     gap: 1.3rem;
@@ -100,7 +100,7 @@ body {
 
 }
 
-.final-price {
+.card-product__price--final {
     color: var(--clr-primary-cyan);
     font-family: "Fraunces", serif;
     font-size: 1.7rem;
@@ -109,7 +109,7 @@ body {
 
 }
 
-.mrp-price {
+.card-product__price--mrp {
     text-decoration: line-through;
     color: var(--clr-blue-500);
     font-size: 0.8rem
@@ -117,7 +117,7 @@ body {
 
 /* ---------ADD TO CART BUTTON------------- */
 
-.cart-btn {
+.card-product__cart-btn {
     margin-top: 0.8em;
     background-color: var(--clr-primary-cyan);
     display: flex;
@@ -132,14 +132,14 @@ body {
     cursor: pointer;
 }
 
-.cart-btn:hover,
-.cart-btn:focus,
-.cart-btn:active {
+.card-product__cart-btn:hover,
+.card-product__cart-btn:focus,
+.card-product__cart-btn:active {
     background-color: hsl(158, 33%, 22%);
 
 }
 
-.cart-text {
+.card-product__cart-text {
     color: var(--clr-neutral-white);
     padding: 1em 0;
     font-weight: 700;

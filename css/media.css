@@ -3,25 +3,25 @@
 
 
 
-    .product-container {
+    .card-product {
         flex-direction: row;
         max-width: 550px;
 
     }
 
-    .product-info {
+    .card-product__info {
         width: 50%;
         padding: 1em 2em;
         border-radius: 0 0.5em 0.5em 0;
 
     }
 
-    .product-title {
+    .card-product__title {
         margin-top: 0.5em
     }
 
 
-    .product-img {
+    .card-product__img {
 
         border-radius: 0.5em 0 0em 0.5em;
         max-width: 275px;
@@ -29,7 +29,7 @@
 
     }
 
-    .cart-btn {
+    .card-product__cart-btn {
         margin-bottom: 1em
     }
 }
